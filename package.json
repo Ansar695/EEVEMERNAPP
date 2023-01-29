@@ -8,7 +8,7 @@
     "start": "node backend/server.js",
     "start-server": "nodemon backend/server.js --ignore './todo-list'",
     "start-client": "npm start --prefix todo-list",
-    "dev": "concurrently \"npm run start-server\" \"npm run start-client\""
+    "dev": "concurrently \"npm start\" \"npm run start-client\""
   },
   "author": "",
   "license": "ISC",
